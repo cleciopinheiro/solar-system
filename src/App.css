@@ -45,7 +45,7 @@ h2 {
 }
 
 .planet {
-  width: 200px;
+  width: 150px;
   transition: 1s;
   cursor: pointer;
 }
@@ -83,7 +83,7 @@ h2 {
 }
 
 .mission-card {
-  width: 550px;
+  width: 400px;
   height: 190px;
   border-radius: 16px;
   border: 1px solid white;
