@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Epilogue', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 32px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.planets-container {
+  margin: 0 3%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.planet {
+  width: 200px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.planet:hover {
+  transform: scale(1.4);
+}
+
+.planet-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 24px;
+}
+
+.missions-container {
+  margin: 40px 15%;
+  border-radius: 24px;
+  background: rgb(255, 255, 255, 0.1);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.missions-card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 16px;
+}
+
+.mission-card {
+  width: 550px;
+  height: 190px;
+  border-radius: 16px;
+  border: 1px solid white;
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+hr {
+  border: 1px solid white;
+}
+
+h3 {
+  margin: 8px 32px 0;
+  font-weight: 300;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 24px;
+  gap: 16px;
+}
+
+li {
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.year:before {
+  content: url(./images/year.png);
+}
+
+.country:before {
+  content: url(./images/country.png);
+}
+
+.destination:before {
+  content: url(./images/dastination.png);
+}
